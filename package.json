@@ -2,11 +2,16 @@
   "name": "nhs-bootstrap",
   "version": "1.0.0",
   "description": "Bootstrap theme for NHS (colors only)",
-  "main": "index.js",
   "scripts": {
-    "start": "webpack",
-    "commit": "npm run git-cz",
+    "build": "webpack",
+    "commit": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "style": "dist/nhs-bootstrap.css",
+  "main": "dist/nhs-bootstrap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janppires/nhs-bootstrap.git"
   },
   "keywords": [
     "nhs",
