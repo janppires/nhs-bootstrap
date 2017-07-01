@@ -1,0 +1,44 @@
+// NHS Blues
+$nhs_dak_blue:    #003087;
+$nhs_blue:        #005EB8;
+$nhs_bright_blue: #0072CE;
+$nhs_light_blue:  #41B6E6;
+$nhs_aqua_blue:   #00A9CE;
+
+// NHS neutrals
+$nhs_black:       #231f20;
+$nhs_dark_gray:   #425563;
+$nhs_mid_gray:    #768692;
+$nhs_pale_gray:   #E8EDEE;
+$nhs_white:       #FFFFFF;
+
+// NHS Support Greens
+$nhs_dark_green:  #006747;
+$nhs_green:       #009639;
+$nhs_light_green: #78BE20;
+$nhs_aqua_green:  #00A499;
+
+// NHS Highlights
+$nhs_purple:                  #330072;
+$nhs_dark_pink:               #7C2855;
+$nhs_pink:                    #AE2573;
+$nhs_dark_red:                #8A1538;
+$nhs_emergency_services_red:  #DA291C;
+$nhs_orange:                  #ED8B00;
+$nhs_warm_yellow:             #FFB81C;
+$nhs_yellow:                  #FAE100;
+$nhs_euro_ambulance_yellow:   #EDFF21;
+
+// Reassign grayscale
+$gray-dark:                 $nhs_black !default;
+$gray:                      $nhs_dark_gray !default;
+$gray-light:                $nhs_mid_gray !default;
+$gray-lighter:              $nhs_pale_gray !default;
+
+// Reassign color vars to semantic color scheme
+$brand-primary:             $nhs_blue !default;
+$brand-success:             $nhs_green !default;
+$brand-info:                $nhs_light_blue !default;
+$brand-warning:             $nhs_orange !default;
+$brand-danger:              $nhs_emergency_services_red !default;
+$brand-inverse:             $nhs_dark_gray !default;
