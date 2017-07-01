@@ -1,0 +1,38 @@
+{
+  "name": "nhs-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap theme for NHS (colors only)",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "commit": "npm run git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nhs",
+    "bootstrap"
+  ],
+  "author": "J. Andre Pires",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "7.1.1",
+    "commitizen": "2.9.6",
+    "css-loader": "0.28.4",
+    "cz-conventional-changelog": "2.0.0",
+    "extract-text-webpack-plugin": "2.1.2",
+    "node-sass": "4.5.3",
+    "postcss-loader": "2.0.6",
+    "precss": "2.0.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "webpack": "2.6.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
+}
